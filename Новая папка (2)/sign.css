@@ -1,0 +1,63 @@
+body {
+    background-color: #494545;
+    margin: 0;
+  }
+  
+  header {
+    width: 100%;
+    height: 850px;
+    background-image: url("https://otkrit-ka.ru/uploads/posts/2023-06/otkrit-ka.ru_kartinka-fon-kachalka-3.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative; 
+   
+  }
+  
+  main {
+    width: 500px;
+    margin: 0 auto;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+  }
+  
+  form {
+    padding: 20px;
+    border: 1px solid #e5d1d1;
+    background-color: red;
+    position: relative;
+    height: 250px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  input {
+    width: 96%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #000;
+    color: #ffffff;
+    padding: 14px;
+    cursor: pointer;
+  }
+.p-button{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 45px;
+    font-size: 18px;
+    transition:background-color 0.35s linear;
+    position: relative;
+    top:35px;
+    left: 160px;
+    font-family: 'Open Sans', sans-serif;
+   }
+   .p-button:hover{
+    background-color: rgb(69, 67, 67);
+   }
